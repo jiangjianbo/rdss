@@ -1,17 +1,17 @@
-package plugins.httpd
+package plugins.jdk
 
 /**
  * Created with IntelliJ IDEA.
  * User: jjb
  * Date: 12-11-25
- * Time: ä¸‹åˆ8:41
+ * Time: ÏÂÎç8:41
  * To change this template use File | Settings | File Templates.
  */
 
 
 
 String getTitle(){
-    return "apache HTTPd"
+    return "Java SDK"
 }
 
 Map<String, Object> help_message(language){
@@ -22,55 +22,55 @@ Map<String, Object> help_message(language){
 }
  
 
-// å®‰è£…ä¸€ç»„åŠŸèƒ½æ¨¡å—
+// °²×°Ò»×é¹¦ÄÜÄ£¿é
 def install(String[] args){
 
 }
 
 
-// åˆ é™¤ä¸€ç»„å·²ç»å®‰è£…çš„æ¨¡å—
+// É¾³ıÒ»×éÒÑ¾­°²×°µÄÄ£¿é
 def remove(String[] args){
 
 }
 
 
-// å¯åŠ¨ä¸€ç»„æ¨¡å—
+// Æô¶¯Ò»×éÄ£¿é
 def start(String[] args){
 
 }
 
 
-// åœæ­¢ä¸€ç»„æ¨¡å—
+// Í£Ö¹Ò»×éÄ£¿é
 def stop(String[] args){
 
 }
 
 
-// é‡å¯ä¸€ç»„æ¨¡å—
+// ÖØÆôÒ»×éÄ£¿é
 def restart(String[] args){
 
 }
 
 
-// å¤‡ä»½ç³»ç»Ÿ
+// ±¸·İÏµÍ³
 def backup(String[] args){
 
 }
 
 
-// ä»å¤‡ä»½ä¸­æ¢å¤æ•°æ®
+// ´Ó±¸·İÖĞ»Ö¸´Êı¾İ
 def restore(String[] args){
 
 }
 
 
-// å‡çº§ä¸€ç»„æ¨¡å—
+// Éı¼¶Ò»×éÄ£¿é
 def upgrade(String[] args){
 
 }
 
 
-// æ£€æŸ¥æ˜¯å¦æœ‰æ–°ç‰ˆæœ¬
+// ¼ì²éÊÇ·ñÓĞĞÂ°æ±¾
 def checkUpdate(String[] args){
 
 }

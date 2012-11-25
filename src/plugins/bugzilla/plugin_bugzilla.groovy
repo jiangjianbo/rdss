@@ -1,4 +1,4 @@
-package plugins.httpd
+package plugins.bugzilla
 
 /**
  * Created with IntelliJ IDEA.
@@ -10,8 +10,9 @@ package plugins.httpd
 
 
 
+
 String getTitle(){
-    return "apache HTTPd"
+    return "Mozilla bugzilla"
 }
 
 Map<String, Object> help_message(language){
